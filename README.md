@@ -51,21 +51,27 @@ UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
 ```
 ### 코드 2
+---
 `docker exec Seoeun git --version`
+---
 1. 설명
    - Docker 컨테이너 `Seoeun` 내부에서 Git의 버전을 출력합니다.
 2. 실행 결과
 `git version 2.43.0`
    - git 버전 2.43.0을 사용하고 잇습니다.
 ### 코드 3
+---
 `docker exec Seoeun python3 --version`
+---
 1. 설명
    - Docker 컨테이너 `Seoeun` 내부에서 Python의 버전을 출력합니다.
 2. 실행 결과
-`Python 3.12.3`
+    `Python 3.12.3`
    - 파이썬 3.12.3 버전을 사용하고 있습니다.
 ### 코드 4
+---
 `docker inspect --format="{{ .HostConfig.Binds }}" Seoeun`
+---
 1. 설명
    -호스트와 'Seoeun' 컨테이너 간에 어떤 디렉토리가 바인딩되어 있는지 출력합니다.
 2. 실행 결과
