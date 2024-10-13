@@ -28,7 +28,7 @@ def isHappy(n):
     - 만약 결과가 tmp 내에 이미 기록된 합들 중에 하나라면 무한 루프이므로, False를 반환해 빠져나옵니다.
 ---
 ## <Week 5 Assignment>
-### 코드 1
+__코드 1__
 `docker exec Seoeun cat /etc/os-release`
 1. 설명
   -'Seoeun'이라는 이름의 Docker 컨테이너 내부에서 실행 중인 운영체제 정보를 확인합니다.
