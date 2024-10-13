@@ -19,4 +19,8 @@ def isHappy(n):
 ```
 ### Explanation
 1. **함수 설명**:
-   - 입력 받은 정수 'n'이 Happy Number인지 판단합니다. 각 자리 숫자를 제곱한 값을 더하고, 그 결과값으로 다시 같은 과정을 반복하면서 총 합이 1이 되는지 판명합니다. 만약 1이 된다면 **Happy Number**이고 무한 루프에 빠진다면 Happy Number가 아닙니다.
+   - 입력 받은 정수 'n'이 Happy Number인지 판단합니다.
+2. **Happy Number란?**
+   - 각 자리 숫자를 제곱한 값을 더하고, 그 결과값으로 다시 같은 과정을 반복할 때 총 합이 1이 된다면 **Happy Number**입니다.
+   - 만약 무한 루프에 빠지게 된다면, Happy Number가 아닙니다.
+  
