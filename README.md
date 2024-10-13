@@ -32,7 +32,7 @@ def isHappy(n):
 `docker exec Seoeun cat /etc/os-release`
 ---
 1. 설명
-  -'Seoeun'이라는 이름의 Docker 컨테이너 내부에서 실행 중인 운영체제 정보를 확인합니다.
+  - 'Seoeun'이라는 이름의 Docker 컨테이너 내부에서 실행 중인 운영체제 정보를 확인합니다.
 2. 실행 결과
 ```
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
