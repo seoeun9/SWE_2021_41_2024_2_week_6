@@ -55,7 +55,7 @@ LOGO=ubuntu-logo
 2. 실행 결과
 `git version 2.43.0`
    - git 버전 2.43.0을 사용하고 잇습니다.
-#### 코드 3
+### 코드 3
 `docker exec Seoeun python3 --version`
 1. 설명
    - Docker 컨테이너 `Seoeun` 내부에서 Python의 버전을 출력합니다.
